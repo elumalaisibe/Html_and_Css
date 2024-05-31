@@ -1,0 +1,98 @@
+
+body{
+    min-width: 100%;
+    position: fixed;
+}
+    
+.bg{
+    background: linear-gradient(rgba(43, 37, 37, 0.575),rgba(10, 9, 9, 0.719)),url("./img/back_ground.webp") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow: none;
+    backdrop-filter: blur(50%);
+    position: relative;
+}
+
+.new_head{
+    background-color: rgb(219, 20, 60);
+    overflow: none;
+    height: 50px;
+    position: relative;
+}
+.image{
+    position: absolute;
+    height: 45vh;
+    width: 45vh;
+    top: 65vh;
+    right: -7%;
+    animation-duration: 1ms;
+    
+}
+
+#num{
+    position: absolute;
+    right: 45%;
+    /* font-weight: bolder; */
+    color: aliceblue;
+    font-size: 25px;
+    bottom: -15px;
+}
+
+/* .frst{
+    
+   
+} */
+
+.phara1{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    font-size: 35px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.second{
+    font-size: 70px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 20%;
+    top:35%
+    
+    
+}
+
+#butt{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(219, 20, 60);
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+    
+}
+
+.new_img{
+    background-color:rgb(219, 20, 60);
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 53%;
+    bottom: 12%;
+}
+
+.gear{
+    position: absolute;
+    height: 12vh;
+    width: 12vh;
+    top: 83vh;
+    left: 1%;
+    animation-duration: 1ms;
+
+}
